@@ -1,0 +1,53 @@
+Assignment: Networking with Cisco Packet Tracer 
+You are the network administrator for a new office, and you've been tasked with setting up a small network. You've been assigned the network address 198.51.100.128/25 and have decided to split the network up into a number of subnets. 
+
+Name: Anastasia Kucerovska
+Student ID: G00439362
+
+Assigned Network Address: 198.51.100.128/25
+Subnet Mask: 255.255.255.192
+
+Subnet A 
+Network Address: 198.51.100.128
+Broadcast Address: 198.51.100.191
+Host Range: 198.51.100.129 – 198.51.100.190
+
+Subnet B 
+Network Address: 198.51.100.192
+Broadcast Address: 198.51.100.255
+Host Range: 198.51.100.193 – 198.51.100.254
+
+Configured Addresses:
+Router 0 
+GigabitEthernet0/0: 198.51.100.129
+GigabitEthernet0/1: 198.51.100.193
+
+Subnet A
+PC-A1: 198.51.100.130
+PC-A2: 198.51.100.131
+PC-A3: 198.51.100.132
+
+
+Subnet B
+PC-B1: 198.51.100.194
+PC-B2: 198.51.100.195
+Server B: 198.51.100.196
+PC-B3: 198.51.100.197 (DHCP)
+PC-B4: 198.51.100.198 (DHCP)
+
+
+DHCP Server Configuration (Subnet B):
+Server B IP: 198.51.100.196
+Gateway: 198.51.100.193
+DNS Server: 8.8.8.8
+IP Range: 198.51.100.197 - 198.51.100.254
+Subnet Mask: 255.255.255.192
+Tested on: PC-B3 (198.51.100.197) and PC-B4 (198.51.100.198)
+
+Source: 
+Title: DHCP Server Configuration in Cisco
+Author: GeeksforGeeks
+URL: https://www.geeksforgeeks.org/dhcp-server-configuration-in-cisco/.
+Date Accessed: November 4, 2024
+
+
